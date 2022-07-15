@@ -5,7 +5,310 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Time expressions for Past Tense (Expresiones temporales para el tiempo pasado)
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8.mb-lg-0.mb-3
+        img(src='@/assets/curso/temas/24.png', alt='')
+      .col-lg-6
+        p.mb-5(data-aos='fade-right')
+          span.r-4.fw-normal.fst-italic We use simple past tense to talk about things that happened before the present tense, and to better reference the time in which they happened, we can add certain words or temporary expressions called adverbs of time to complement the sentence. The ones most often used in the past are: 
+          br
+          br
+          |El pasado simple sirve para hablar de cosas que ocurrieron antes del tiempo presente, y para referenciar mejor el tiempo en el que ocurrieron se puede agregar al complemento de la oración ciertas palabras o expresiones temporales llamadas adverbios de tiempo. Los que se usan con más frecuencia en el pasado son:
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 3 
+      span Expresiones de  tiempo
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/25.svg' alt='AvatarTop').mb-4
+          .tarjeta.color-primario.w-100
+            .row.justify-content-center
+              .col-lg-8.p-3
+                h4.fst-italic.text-center.mt-4 Last
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last night"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last weekend"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last year"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last Wednesday"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last Christmas"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="last month"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/26.svg' alt='AvatarTop').mb-4
+          .tarjeta.color-acento-botones.w-100
+            .row.justify-content-center
+              .col-lg-8.p-3
+                h4.fst-italic.text-center.mt-4 Ago 
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="5 minutes ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="an hour ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="a week ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="a month ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="a year ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="a long time ago"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/25.svg' alt='AvatarTop').mb-4
+          .tarjeta.color-secundario.w-100
+            .row.justify-content-center
+              .col-lg-8.p-3
+                h4.fst-italic.text-center.mt-4 Yesterday
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="yesterday"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="yesterday morning"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="yesterday at noon"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="yesterday afternoon"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="yesterday evening"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                texto="the day before yesterday"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+    p.mb-5(data-aos='fade-right') A continuación, conozca las expresiones de tiempo para el pasado simple, explorando el siguiente recurso:
+    TabsB.color-secundario.mb-5
+      .p-5.py-md-5(titulo="Last" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
+        .row.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4
+              span.r-3 Last 
+            p.mb-5
+              span.r-4.fst-italic We use “last” + “time reference" to refer to the particular moment we are pointing to, whichever is most recent or close to the present.
+              br
+              br
+              | Usamos 
+              span.r-4.fst-italic “last” 
+              | + “referencia temporal” para referirnos al momento en particular que estamos señalando, el cual es el más reciente o cercano al presente.
+          .col-md-5.mb-4.mb-md-0
+            .row.justify-content-center.mb-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="Summer"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="Christmas"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="April"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="night"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="year"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="month"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="week"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="Sunday"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+        div(style='background-color: #6b8dff').p-4
+          p 
+            span.text-white.fst-italic.fw-bold In Spanish, we say “el verano pasado”, “la semana pasada”, “el año pasado”; but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.
+            br
+            br
+            | En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés, no usamos el artículo definido 
+            span.text-white.fst-italic.fw-bold “the”
+            | , se dice 
+            span.text-white.fst-italic.fw-bold “last summer”, “last week”, “last year”, 
+            | NO se dice
+            span.text-white.fst-italic.fw-bold  “the last summer”, “the last week”, “the last year”.
+      .p-5.py-md-5(titulo="Ago" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
+        .row.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4
+              span.r-3 Ago
+            p.mb-5
+              span.r-4.fst-italic We use “time reference” + “ago” to show how far back in the past or how long ago something happened.
+              br
+              br
+              | Usamos “referencia temporal” + “ago” para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
+          .col-md-5.mb-4.mb-md-0
+            .row.justify-content-center.mb-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="a minute"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="two hours"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="three days"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="a week"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="five months"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="ten years"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="many years"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="a long time"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+        div(style='background-color: #ffffff').p-4
+          p For example/Por ejemplo:
+          .row.justify-content-center
+            .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="My birthday was a week ago."
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                p.ms-3 Mi cumpleaños fue hace una semana.
+            .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="We were in the United States 5 years ago."
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                p.ms-3 Estuvimos en los Estados Unidos hace 5 años.
+      .p-5.py-md-5(titulo="Yesterday" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
+        .row.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            h4
+              span.r-3 Yesterday
+            p.mb-5
+              span.r-4.fst-italic We use “yesterday” or “yesterday + morning / at noon / afternoon / evening”  to talk about the moments of the day before today.
+              br
+              br
+              | Usamos 
+              span.r-4.fst-italic “yesterday” 
+              | o 
+              span.fw-bold “yesterday + morning (en la mañana) /at noon (al mediodía)  / afternoon (en la tarde) / evening (en la tarde-noche*)” 
+              | para hablar de los momentos del día antes de hoy.
+          .col-md-5.mb-4.mb-md-0
+            .row.justify-content-center.mb-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="morning"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="afternoon"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="evening"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="at noon"
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+        div(style='background-color: #ffffff').p-4
+          p For example/Por ejemplo:
+          .row.justify-content-center
+            .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="Sandra was busy yesterday morning."
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                p.ms-3 Sandra estaba ocupada ayer por la mañana.
+            .col-lg-6
+                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="The kids were at their grandmother's house the day before yesterday."
+                :audio="require('@/assets/audios/muestra.mp3')"
+                )
+                p.ms-3 Los niños estuvieron en casa de su abuela anteayer.
+    .contenedor-franja.margin-n
+      .franja(style= 'height: 80%')
+      .contenido.px-5
+        .row.justify-content-center.mb-5
+          .col-lg-2.col-8.mb-lg-0.mb-3
+            img(src='@/assets/curso/temas/warning.svg', alt='')
+          .col-lg-10
+            h5.mb-5
+              span.r-4 Warning #5
+              br
+              | Advertencia #5
+            p.mb-5 
+              span.r-1.fw-normal.fst-italic “Evening” is the part of the day between the end of the afternoon and the night, and there is no exact word for this in Spanish; instead “night” can be interpreted directly as “noche”.
+                br
+                |Knowing this, with “evening” we use “yesterday”. With “night” instead, we say “last night”, NOT “yesterday night”.
+                br
+                |We also use the expression “the day before yesterday” to refer to “two days ago”, or in Spanish “anteayer”.
+
+              br
+              br
+              span.text-white “Evening” es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio “night” sí puede interpretarse directamente como “noche”.
+                br
+                |Ya sabiendo esto, con “evening” sí usamos “yesterday”. Con “night”, en cambio, decimos “last night”, NO “yesterday night”.
+                br
+                |También usamos la expresión “the day before yesterday” para referirnos a “hace dos días”, o en español “anteayer”.
+
 
 </template>
 
@@ -26,4 +329,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabs-b__tab--active, .tabs-b__tab--active:hover
+  background-color: #fff7da
+</style>
