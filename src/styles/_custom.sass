@@ -49,3 +49,28 @@
     left: 0
   .contenido
     position: relative
+.contenedor-traductor
+  position: relative
+  background-color: #ffeced
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    transform: translateY(100%) translateX(-13%)
+    background-color: $color-secundario
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    color: #fff
+    font-weight: bold
+    cursor: pointer
+    &:hover
+      background-color: darken(#6484f1, .8 )
+.mostrar
+  display: none
+      

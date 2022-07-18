@@ -6,20 +6,16 @@
       .titulo-principal__numero
         span 1
       h1 Verb To be in the past tense (Verbo To be en pasado)
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/00.png', alt='')
       .col-lg-6
-        .fst-italic
-          p.mb-5(data-aos='fade-right', style='color: #3c3fa7 !important') The verb 
-            span.r-4 "to be" 
-            | is an irregular verb that has different forms depending on the tense in which it is conjugated. In the past, it has two forms: 
-            span.r-4 "was" and "were", 
-            | determined by the grammatical person with which it is conjugated, and can be used as a main verb (for example, in the simple past) or as an auxiliary verb (for example, in the past progressive).
-      .col-lg-6
-        p.mb-5(data-aos='fade-right') El verbo 
-          span.r-4.fst-italic "to be" 
-          | (ser / estar) es un verbo irregular que tiene diferentes formas según el tiempo en el que esté conjugado. En pasado, tiene dos formas: 
-          span.r-4.fst-italic "was" y "were", 
-          | dependiendo de la persona gramatical con la que esté conjugado, y puede ser usado como verbo principal (por ejemplo, en el pasado simple) o como verbo auxiliar (por ejemplo, en el pasado progresivo).
+        .contenedor-traductor
+          .contenedor-traductor__eng
+            p
+              span.r-4.fst-italic The verb "to be" is an irregular verb that has different forms depending on the tense in which it is conjugated. In the past, it has two forms: "was" and "were", determined by the grammatical person with which it is conjugated, and can be used as a main verb (for example, in the simple past) or as an auxiliary verb (for example, in the past progressive).
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
+            p El verbo "ser" es un verbo irregulario que tiene diferentes formas dependiendo del tiempo en el que se conjuga. En el pasado, tiene dos formas: "fue" y "fuimos", determinadas por la persona con la que se conjuga, y puede ser usado como un verbo principal (por ejemplo, en el pasado simple) o como un verbo auxiliar (por ejemplo, en el pasado progresivo).
+          a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
       span Verbo “to be” en tiempo pasado
@@ -42,7 +38,7 @@
                 td(style='background-color: #fff7da') 
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="I was"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/1.mp3')"
                   )
                 td() yo era / estaba
               tr
@@ -50,7 +46,7 @@
                 td(style='background-color: #fff7da') 
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="you were"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/2.mp3')"
                   )
                 td() tú eras / estabas<br>usted era / estaba
               tr
@@ -58,21 +54,21 @@
                 td
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="he was"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/3.mp3')"
                   )
                 td él era / estaba
               tr
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="she was"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/4.mp3')"
                   )
                 td ella era / estaba
               tr
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="it was"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/5.mp3')"
                   )
                 td (eso) era / estaba
               tr
@@ -80,8 +76,8 @@
                 td 1era persona
                 td
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                    texto="it was"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    texto="we were"
+                    :audio="require('@/assets/audios/tema1/6.mp3')"
                   )
                 td nosotros<br>éramos / estábamos
               tr
@@ -89,7 +85,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="you were"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/7.mp3')"
                   )
                 td ustedes<br>eran / estaban
               tr
@@ -97,7 +93,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                     texto="they were"
-                    :audio="require('@/assets/audios/muestra.mp3')"
+                    :audio="require('@/assets/audios/tema1/8.mp3')"
                   )
                 td ellos eran / estaban
     .row.justify-content-center.mb-5
@@ -118,7 +114,7 @@
           p For example/por ejemplo:
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto="She was in the back and you were in the front of the photo."
-            :audio="require('@/assets/audios/muestra.mp3')"
+            :audio="require('@/assets/audios/tema1/9.mp3')"
           )
           p.ms-2.mb-0 Ella estaba en la parte de atrás y tú estabas en el frente de la foto.
       .col-lg-6
@@ -140,13 +136,13 @@
             .col-lg-5
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was a student."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/10.mp3')"
               )
               p.ms-2 Yo era un estudiante.
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was in the classroom."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/11.mp3')"
               )
               p.ms-2 Yo estaba en el salón de clases.
     Separador
@@ -166,12 +162,12 @@
                 | / Describir
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="He was young and handsome."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/12.mp3')"
               )
               p.ms-2 Él era joven y guapo.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The puppies were so cute."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/13.mp3')"
               )
               p.ms-2 Los cachorros eran tan lindos.
             .col-md-6
@@ -185,12 +181,12 @@
                 | / Ubicar
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Sandra was in Colombia"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/14.mp3')"
               )
               p.ms-2 Sandra estaba en Colombia.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="We were abroad."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/15.mp3')"
               )
               p.ms-2 Nosotros estábamos en el extranjero.
           .row
@@ -200,12 +196,12 @@
                 | / Indicar sentimientos y estados
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="John was happy with the news, but Ana was worried."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/16.mp3')"
               )
               p.ms-2 John estaba feliz con la noticia, pero Ana estaba preocupada.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="My parents were very busy at work."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/17.mp3')"
               )
               p.ms-2 Mis padres estaban muy ocupados en el trabajo.
             .col-md-6
@@ -226,12 +222,12 @@
                   span.r-4 "was".
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I didn't know it was so late."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/18.mp3')"
               )
               p.ms-2 No sabía que era tan tarde.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="It was cold this morning."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/19.mp3')"
               )
               p.ms-2 Hacía frío esta mañana.
           .row
@@ -242,12 +238,12 @@
                 span.r-4.fw-normal.fst-italic These forms are used to talk about something that existed. 
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="There was a hurricane on the island."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/20.mp3')"
               )
               p.ms-2 Hubo un huracán en la isla.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="There were many volunteers to rebuild it."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/21.mp3')"
               )
               p.ms-2 Hubo muchos voluntarios para reconstruirla.
             .col-md-6
@@ -261,12 +257,12 @@
                 span.fw-bold / Como verbo auxiliar en el pasado progresivo
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was playing football."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/ft.mp3')"
               )
               p.ms-2 Yo estaba jugando fútbol.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Clara and Diana were playing volleyball. "
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/clara.mp3')"
               )
               p.ms-2 Clara y Diana estaban jugando voleibol.
           .row
@@ -276,12 +272,12 @@
                 span.fw-bold / Hablar sobre el comportamiento de las personas
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was being careful and attentive. "
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/attentive.mp3')"
               )
               p.ms-2 Yo estaba siendo cuidadoso y atento.
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="You were being very rude to your teacher."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/teacher.mp3')"
               )
               p.ms-2 Ustedes estaban siendo muy groseros con su profesor.
             .col-md-6
@@ -351,7 +347,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="She was sick last week."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/22.mp3')"
                   )
                   p.ms-2 Ella estaba enferma la semana pasada.
               .row.justify-content-center
@@ -360,7 +356,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I was at home yesterday."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/23.mp3')"
                   )
                   p.ms-2 Yo estaba en casa ayer. 
         .col-lg-6
@@ -385,7 +381,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="We were at the supermarket."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/24.mp3')"
                   )
                   p.ms-2 Nosotros estábamos en el supermercado.
               .row.justify-content-center.mb-4
@@ -394,7 +390,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="They were nice to me."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/25.mp3')"
                   )
                   p.ms-2 Ellos fueron amables conmigo.
               p.fst-italic
@@ -416,7 +412,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I wish I were taller"
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/26.mp3')"
                   )
                   p.ms-2 Desearía ser más alto.
               .row.justify-content-center.mb-4
@@ -425,7 +421,7 @@
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="If the weather were better, he would go swimming"
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/27.mp3')"
                   )
                   p.ms-2 Si el clima fuera mejor, él iría a nadar.
     .contenedor-franja.margin-n
@@ -488,49 +484,49 @@
                 .carousel-item.active.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I was happy. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/28.mp3')"
                   )
                   p.ms-2.mb-0 Yo era feliz.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="You were at school. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/29.mp3')"
                   )
                   p.ms-2.mb-0 Tú estabas en la escuela.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="He was thirsty. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/30.mp3')"
                   )
                   p.ms-2.mb-0 Él estaba sediento.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="She was a waitress. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/31.mp3')"
                   )
                   p.ms-2.mb-0 Ella era una mesera.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="It was small. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/32.mp3')"
                   )
                   p.ms-2.mb-0 (Eso) Era pequeño.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="We were in the theater. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/33.mp3')"
                   )
                   p.ms-2.mb-0 Nosotros estábamos en el teatro.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="You were skinny. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/34.mp3')"
                   )
                   p.ms-2.mb-0 Ustedes eran delgados.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="They were noisy. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/35.mp3')"
                   )
                   p.ms-2.mb-0 Ellos eran ruidosos.
                   
@@ -568,49 +564,49 @@
                 .carousel-item.active.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I wasn’t sad. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/36.mp3')"
                   )
                   p.ms-2.mb-0 Yo no estaba triste. 
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="You weren’t at home. "
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/37.mp3')"
                   )
                   p.ms-2.mb-0 Tú no estabas en casa.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="He wasn’t hungry."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/38.mp3')"
                   )
                   p.ms-2.mb-0 Él no estaba hambriento.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="She wasn’t an actress."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/39.mp3')"
                   )
                   p.ms-2.mb-0 Ella no era una actriz.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="It wasn’t big."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/40.mp3')"
                   )
                   p.ms-2.mb-0 (Eso) No era grande.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="We weren’t in the park."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/41.mp3')"
                   )
                   p.ms-2.mb-0 Nosotros no estábamos en el parque.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="You weren’t chubby."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/42.mp3')"
                   )
                   p.ms-2.mb-0 Ustedes no eran regordetes.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="They weren’t quiet."
-                  :audio="require('@/assets/audios/muestra.mp3')"
+                  :audio="require('@/assets/audios/tema1/43.mp3')"
                   )
                   p.ms-2.mb-0 Ellos no estaban callados.
                   
@@ -645,13 +641,13 @@
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="She was intelligent."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/46.mp3')"
               )
               p.ms-2.mb-0 Ella era inteligente.
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="They were students."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/47.mp3')"
               )
               p.ms-2.mb-0 Ellos eran estudiantes.
       .row.justify-content-center.align-items-center.mb-4
@@ -667,15 +663,16 @@
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Was she intelligent?."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/48.mp3')"
               )
               p.ms-2.mb-0 ¿Ella era inteligente?.
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Were they students?."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/49.mp3')"
               )
               p.ms-2.mb-0 ¿Ellos eran estudiantes?
+      //TODO PENDIENTES AUDIOS 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4
           .d-flex.align-items-center
@@ -689,28 +686,29 @@
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Yes, she was"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               p.ms-2.mb-0 Sí
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Yes, they were."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               p.ms-2.mb-0 Sí
           .row.justify-content-center.mb-5
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="No, she wasn’t."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               p.ms-2.mb-0 No
             .col-lg-6
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="No, they weren’t."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               p.ms-2.mb-0 No
+      //TODO PENDIENTES AUDIOS
       .tarjeta.color-acento-botones--borde.bg-white.p-5.mb-4
         p.mb-5(data-aos='fade-right').ms-5.fw-bold 
           span.r-4.fst-italic Information Questions  
@@ -724,15 +722,15 @@
                 | Palabra con “WH”
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Where"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Why"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="When"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
           .col-lg-3
             .tarjeta.p-4(style='background-color: #e1e8ff')
@@ -742,11 +740,11 @@
                 | Verbo “to be”
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Was"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Were"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
           .col-lg-3
             .tarjeta.p-4(style='background-color: #e1e8ff')
@@ -756,11 +754,11 @@
                 | Sujeto
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I / he / she / it"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="we / you / they"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
           .col-lg-3
             .tarjeta.p-4(style='background-color: #e1e8ff')
@@ -770,33 +768,33 @@
                 | Complemento
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="yesterday..."
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="angry…"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="a student…"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/1.mp3')"
               )
         .row.justify-content-center.mb-5
           .col-lg-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Where was he yesterday?"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/64.mp3')"
               )
             p.ms-3 ¿Dónde estaba él ayer?
           .col-lg-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Why were they angry?"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/65.mp3')"
               )
             p.ms-3 ¿Por qué ellos estaban enojados?
           .col-lg-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="When were you a student?"
-              :audio="require('@/assets/audios/muestra.mp3')"
+              :audio="require('@/assets/audios/tema1/66.mp3')"
               )
             p.ms-3 ¿Cuándo eras tú un estudiante?
     .contenedor-franja.margin-n
@@ -851,7 +849,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    ocultarEsp: true,
   }),
   mounted() {
     this.$nextTick(() => {

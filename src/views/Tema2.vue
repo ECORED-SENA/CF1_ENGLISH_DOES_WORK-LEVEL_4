@@ -10,11 +10,13 @@
       .col-lg-4.col-8.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/24.png', alt='')
       .col-lg-6
-        p.mb-5(data-aos='fade-right')
-          span.r-4.fw-normal.fst-italic We use simple past tense to talk about things that happened before the present tense, and to better reference the time in which they happened, we can add certain words or temporary expressions called adverbs of time to complement the sentence. The ones most often used in the past are: 
-          br
-          br
-          |El pasado simple sirve para hablar de cosas que ocurrieron antes del tiempo presente, y para referenciar mejor el tiempo en el que ocurrieron se puede agregar al complemento de la oración ciertas palabras o expresiones temporales llamadas adverbios de tiempo. Los que se usan con más frecuencia en el pasado son:
+        .contenedor-traductor
+          .contenedor-traductor__eng
+            p
+              span.r-4.fst-italic We use simple past tense to talk about things that happened before the present tense, and to better reference the time in which they happened, we can add certain words or temporary expressions called adverbs of time to complement the sentence. The ones most often used in the past are:
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
+            p El pasado simple sirve para hablar de cosas que ocurrieron antes del tiempo presente, y para referenciar mejor el tiempo en el que ocurrieron se puede agregar al complemento de la oración ciertas palabras o expresiones temporales llamadas adverbios de tiempo. Los que se usan con más frecuencia en el pasado son:
+          a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 3 
       span Expresiones de  tiempo
@@ -28,27 +30,27 @@
                 h4.fst-italic.text-center.mt-4 Last
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last night"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/1.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last weekend"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/2.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last year"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/3.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last Wednesday"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/4.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last Christmas"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/5.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="last month"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/6.mp3')"
                 )
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -59,27 +61,27 @@
                 h4.fst-italic.text-center.mt-4 Ago 
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="5 minutes ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/7.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="an hour ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/8.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="a week ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/9.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="a month ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/10.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="a year ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/11.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="a long time ago"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/12.mp3')"
                 )
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -90,27 +92,27 @@
                 h4.fst-italic.text-center.mt-4 Yesterday
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/12.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday morning"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/13.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday at noon"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/14.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday afternoon"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/15.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday evening"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/16.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="the day before yesterday"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/17.mp3')"
                 )
     p.mb-5(data-aos='fade-right') A continuación, conozca las expresiones de tiempo para el pasado simple, explorando el siguiente recurso:
     TabsB.color-secundario.mb-5
@@ -131,36 +133,36 @@
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="Summer"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/18.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="Christmas"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/20.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="April"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/22.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="night"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/24.mp3')"
                 )
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="year"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/19.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="month"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/21.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="week"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/23.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="Sunday"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/25.mp3')"
                 )
         div(style='background-color: #6b8dff').p-4
           p 
@@ -188,36 +190,36 @@
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="a minute"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/26.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="two hours"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/28.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="three days"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/30.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="a week"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/32.mp3')"
                 )
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="five months"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/27.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="ten years"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/29.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="many years"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/31.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="a long time"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/33.mp3')"
                 )
         div(style='background-color: #ffffff').p-4
           p For example/Por ejemplo:
@@ -225,13 +227,13 @@
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="My birthday was a week ago."
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/34.mp3')"
                 )
                 p.ms-3 Mi cumpleaños fue hace una semana.
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="We were in the United States 5 years ago."
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/35.mp3')"
                 )
                 p.ms-3 Estuvimos en los Estados Unidos hace 5 años.
       .p-5.py-md-5(titulo="Yesterday" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
@@ -253,20 +255,20 @@
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="morning"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/36.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="afternoon"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/38.mp3')"
                 )
               .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="evening"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/37.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="at noon"
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/39.mp3')"
                 )
         div(style='background-color: #ffffff').p-4
           p For example/Por ejemplo:
@@ -274,13 +276,13 @@
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="Sandra was busy yesterday morning."
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/40.mp3')"
                 )
                 p.ms-3 Sandra estaba ocupada ayer por la mañana.
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
                 texto="The kids were at their grandmother's house the day before yesterday."
-                :audio="require('@/assets/audios/muestra.mp3')"
+                :audio="require('@/assets/audios/tema2/41.mp3')"
                 )
                 p.ms-3 Los niños estuvieron en casa de su abuela anteayer.
     .contenedor-franja.margin-n
@@ -316,7 +318,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    ocultarEsp: true,
   }),
   mounted() {
     this.$nextTick(() => {
