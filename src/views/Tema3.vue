@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Let's talk about my life (Hablemos de mi vida)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/28.png', alt='')
@@ -19,9 +19,9 @@
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     Separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.1. How I used to feel in the past (Cómo solía sentirme en el pasado)
+      h2 3.1. <em>How I used to feel in the past</em> (Cómo solía sentirme en el pasado)
     p.mb-5(data-aos='fade-right')
-      span.r-4.fw-normal When we talk about how someone felt in the past, we have to use the verb “To be” and vocabulary to express feelings.
+      span.r-4.fw-normal.fst-italic When we talk about how someone felt in the past, we have to use the verb “To be” and vocabulary to express feelings.
       br
       br
       | Cuando se habla de cómo alguien se sentía en un momento del pasado, se debe usar el verbo “to be” en el pasado y vocabulario para expresar esos sentimientos.
@@ -97,7 +97,7 @@
     p.mb-5(data-aos='fade-right') Lea y escuche algunos ejemplos con su correspondiente pronunciación en inglés.
     div(style=' background-color: #fffbeb').p-5.mb-5
       p.fw-bold
-        span.r-4.fst-italic For example
+        span.r-4.fst-italic For example 
         | /Por ejemplo:
       .row.justify-content-center
         .col-lg-6
@@ -184,12 +184,12 @@
               span.r-1.fw-normal.fst-italic The adjectives that describe emotions in Spanish vary in number and gender, for example, “aburrido”, “aburrida”, “aburridos” and “aburridas”; instead, in English, that adjective has a single base word that can be used regardless of whether the subject is singular or plural, masculine or feminine, for example, “bored”.
               br
               br
-              span.text-white Los adjetivos que describen las emociones en español varían en número y en género, por ejemplo, “aburrido”, “aburrida”, “aburridos” y “aburridas”; en cambio, en inglés, ese adjetivo tiene una sola palabra base que puede ser usada sin importar si el sujeto es singular o plural, masculino o femenino, por ejemplo, “bored”.
+              span.text-white Los adjetivos que describen las emociones en español varían en número y en género, por ejemplo, “aburrido”, “aburrida”, “aburridos” y “aburridas”; en cambio, en inglés, ese adjetivo tiene una sola palabra base que puede ser usada sin importar si el sujeto es singular o plural, masculino o femenino, por ejemplo, <em>“bored”</em>.
 
     p.mb-5(data-aos='fade-right') A continuación, se invita a escuchar algunos ejemplos con su correspondiente pronunciación en inglés.
     div(style=' background-color: #fffbeb').p-5.mb-5
       p.fw-bold
-        span.r-4.fst-italic For example
+        span.r-4.fst-italic For example 
         | /Por ejemplo:
       .row.justify-content-center
         .col-lg-3
@@ -228,7 +228,7 @@
           )
     Separador
     #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.2. The stages of my life (Las etapas de mi vida)
+      h2 3.2. <em>The stages of my life</em> (Las etapas de mi vida)
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal In life there are different stages in which very specific events are lived and those events have to be told using specific vocabulary and expressions in order to make others understand the context.
       br
@@ -325,7 +325,7 @@
           p.ms-3 Los adultos mayores son usualmente abandonados.
     Separador.mt-5
     #t_3_3.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 3.3 My social and family life (Mi vida social y familiar)
+      h2 3.3 <em>My social and family life</em> (Mi vida social y familiar)
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic Talking about social and family life is something natural and daily for most people and you have to have the right vocabulary to generate a conversation about the topic.
       br
@@ -394,7 +394,7 @@
           p.text-center
             span.r-4.fst-italic.fw-bold Baby shower
             br
-            span.r-3 Baby shower
+            span.r-3 Baby shower (celebración antes del nacimiento del bebé)
     p.mb-5(data-aos='fade-right') Lea y escuche algunos ejemplos con su correspondiente pronunciación en inglés.
     .contenedor-audios-iconos.p-5(style='background-color: #fff0b5')
       .icono1.d-none.d-lg-block: img(src='@/assets/curso/temas/61.svg', alt='' style='width: 172px')        

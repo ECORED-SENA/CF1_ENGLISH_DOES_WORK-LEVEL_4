@@ -4,7 +4,7 @@ export default {
       'When I was younger<br><span class=r-3>Cuando era más joven</b>',
     descripcionCurso:
       // 'This component is going to be the introduction to the past tenses, starting with the past forms of the verb “to be” (was / were), useful time expressions to refer to the past (ago, last, yesterday, etc.), and suitable vocabulary to build sentences and describe information about experiences of our own life in the past tense. <br><br>
-      'Este componente va a ser la introducción a los tiempos pasados, empezando con las formas en pasado del verbo “to be” (was / were), expresiones de tiempo útiles para hacer referencia al pasado (ago, last, yesterday, etc.) y vocabulario idóneo para construir oraciones y describir información sobre experiencias de nuestra propia vida en tiempo pasado.',
+      'Este componente va a ser la introducción a los tiempos pasados, empezando con las formas en pasado del verbo <em>“to be” (was/were)</em>, expresiones de tiempo útiles para hacer referencia al pasado <em>(ago, last, yesterday, etc.)</em> y vocabulario idóneo para construir oraciones y describir información sobre experiencias de nuestra propia vida en tiempo pasado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          '<em>Verb To be in the past tense</em> (Verbo <em>To be</em> en pasado)   ',
+          '<em>Verb To Be in the Past Tense</em> (verbo <em>"to be"</em> en pasado)   ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -304,7 +304,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada        ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -316,7 +351,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

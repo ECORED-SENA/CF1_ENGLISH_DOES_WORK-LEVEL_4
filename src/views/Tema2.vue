@@ -92,7 +92,7 @@
                 h4.fst-italic.text-center.mt-4 Yesterday
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday"
-                :audio="require('@/assets/audios/tema2/12.mp3')"
+                :audio="require('@/assets/audios/tema1/yesterday.mp3')"
                 )
                 TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="yesterday morning"
@@ -166,7 +166,7 @@
                 )
         div(style='background-color: #6b8dff').p-4
           p 
-            span.text-white.fst-italic.fw-bold In Spanish, we say “el verano pasado”, “la semana pasada”, “el año pasado”; but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.
+            span.text-white.fw-bold <em>In Spanish, we say</em> “el verano pasado”, “la semana pasada”, “el año pasado”; <em>but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.</em>
             br
             br
             | En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés, no usamos el artículo definido 
@@ -184,7 +184,7 @@
               span.r-4.fst-italic We use “time reference” + “ago” to show how far back in the past or how long ago something happened.
               br
               br
-              | Usamos “referencia temporal” + “ago” para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
+              | Usamos “referencia temporal” + <em>“ago”</em> para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
           .col-md-5.mb-4.mb-md-0
             .row.justify-content-center.mb-5
               .col-lg-6
@@ -222,7 +222,7 @@
                 :audio="require('@/assets/audios/tema2/33.mp3')"
                 )
         div(style='background-color: #ffffff').p-4
-          p For example/Por ejemplo:
+          p For example / Por ejemplo:
           .row.justify-content-center
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
@@ -248,7 +248,7 @@
               | Usamos 
               span.r-4.fst-italic “yesterday” 
               | o 
-              span.fw-bold “yesterday + morning (en la mañana) /at noon (al mediodía)  / afternoon (en la tarde) / evening (en la tarde-noche*)” 
+              span.fw-bold.fst-italic “yesterday + morning (en la mañana) /at noon (al mediodía)  / afternoon (en la tarde) / evening (en la tarde-noche)” 
               | para hablar de los momentos del día antes de hoy.
           .col-md-5.mb-4.mb-md-0
             .row.justify-content-center.mb-5
@@ -271,7 +271,7 @@
                 :audio="require('@/assets/audios/tema2/39.mp3')"
                 )
         div(style='background-color: #ffffff').p-4
-          p For example/Por ejemplo:
+          p For example / Por ejemplo:
           .row.justify-content-center
             .col-lg-6
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
@@ -305,11 +305,11 @@
 
               br
               br
-              span.text-white “Evening” es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio “night” sí puede interpretarse directamente como “noche”.
+              span.text-white <em>“Evening”</em> es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio <em>“night”</em> sí puede interpretarse directamente como “noche”.
                 br
-                |Ya sabiendo esto, con “evening” sí usamos “yesterday”. Con “night”, en cambio, decimos “last night”, NO “yesterday night”.
+                |Ya sabiendo esto, con <em>“evening”</em> sí usamos <em>“yesterday”</em>. Con <em>“night”</em>, en cambio, decimos <em>“last night”</em>, NO <em>“yesterday night”.</em>
                 br
-                |También usamos la expresión “the day before yesterday” para referirnos a “hace dos días”, o en español “anteayer”.
+                |También usamos la expresión <em>“the day before yesterday”</em> para referirnos a “hace dos días”, o en español “anteayer”.
 
 
 </template>
