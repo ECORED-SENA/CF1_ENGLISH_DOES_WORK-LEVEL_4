@@ -446,7 +446,7 @@
     p.mb-5(data-aos='fade-right') En el pasado simple, las oraciones que usan el verbo <em>"to be"</em> como verbo principal son útiles para expresar qué y cómo éramos, dónde estábamos, cómo nos sentíamos y comportábamos en un tiempo anterior al presente. Observe las frases (o estructuras gramaticales) usadas para expresar esta información en el siguiente video: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1Ker6cG44Uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') Si desea practicar, el siguiente PDF presenta los textos del video anterior, tanto en inglés como en español.
     // TODO Anadir el pdf al llamado de accion 
     .tarjeta.color-acento-botones.p-3.mb-5.margin-n.rounded-0.px-5
@@ -459,7 +459,7 @@
               h5.mb-1 Sentence structures (Estructuras de oraciones) 
               p.text-small Y  en el siguiente recurso podrá repasar cada una de las estructuras gramaticales (estructura afirmativa, estructura negativa, estructura interrogativa) del verbo <b>“To be”</b> explicadas en el video.
             .col-sm-auto
-              a.boton.color-primario(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-primario(:href="obtenerLink('downloads/structure.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     .contenedor-degrade.p-5.mb-5
@@ -672,43 +672,6 @@
               :audio="require('@/assets/audios/tema1/49.mp3')"
               )
               p.ms-2.mb-0 ¿Ellos eran estudiantes?
-      //TODO PENDIENTES AUDIOS 
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4
-          .d-flex.align-items-center
-            img(src='@/assets/curso/temas/23.svg', alt='' style='width: 85px').me-4
-            h5.fst-italic.mb-0
-              span.r-4 Short answer
-              br
-              span.r-3 Respuestas cortas
-        .col-lg-8.dialogo-verde
-          .row.justify-content-center.mb-4
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Yes, she was"
-              :audio="require('@/assets/audios/tema1/1.mp3')"
-              )
-              p.ms-2.mb-0 Sí
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Yes, they were."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
-              )
-              p.ms-2.mb-0 Sí
-          .row.justify-content-center.mb-5
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="No, she wasn’t."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
-              )
-              p.ms-2.mb-0 No
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="No, they weren’t."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
-              )
-              p.ms-2.mb-0 No
-      //TODO PENDIENTES AUDIOS
       .tarjeta.color-acento-botones--borde.bg-white.p-5.mb-4
         p.mb-5(data-aos='fade-right').ms-5.fw-bold 
           span.r-4.fst-italic Information Questions  
