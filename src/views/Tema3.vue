@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Let's talk about my life (Hablemos de mi vida)
+      h1 <em>Let's talk about my life</em> (Hablemos de mi vida)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/28.png', alt='')
@@ -98,7 +98,7 @@
     div(style=' background-color: #fffbeb').p-5.mb-5
       p.fw-bold
         span.r-4.fst-italic For example 
-        | /Por ejemplo:
+        | / Por ejemplo:
       .row.justify-content-center
         .col-lg-6
           .tarjeta-avatar-b.mb-5
@@ -190,7 +190,7 @@
     div(style=' background-color: #fffbeb').p-5.mb-5
       p.fw-bold
         span.r-4.fst-italic For example 
-        | /Por ejemplo:
+        | / Por ejemplo:
       .row.justify-content-center
         .col-lg-3
           .tarjeta-avatar-b.mb-5

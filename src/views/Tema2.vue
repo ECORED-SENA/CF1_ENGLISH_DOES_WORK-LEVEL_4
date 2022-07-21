@@ -181,7 +181,7 @@
             h4
               span.r-3 Ago
             p.mb-5
-              span.r-4.fst-italic We use “time reference” + “ago” to show how far back in the past or how long ago something happened.
+              span.r-4.fst-italic We use “time reference” + <em>“ago”</em> to show how far back in the past or how long ago something happened.
               br
               br
               | Usamos “referencia temporal” + <em>“ago”</em> para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
@@ -248,7 +248,7 @@
               | Usamos 
               span.r-4.fst-italic “yesterday” 
               | o 
-              span.fw-bold.fst-italic “yesterday + morning (en la mañana) /at noon (al mediodía)  / afternoon (en la tarde) / evening (en la tarde-noche)” 
+              span.fw-bold <em>“yesterday + morning</em> (en la mañana) <em>/at noon</em> (al mediodía)  / <em>afternoon</em> (en la tarde) / <em>evening</em> (en la tarde-noche)” 
               | para hablar de los momentos del día antes de hoy.
           .col-md-5.mb-4.mb-md-0
             .row.justify-content-center.mb-5

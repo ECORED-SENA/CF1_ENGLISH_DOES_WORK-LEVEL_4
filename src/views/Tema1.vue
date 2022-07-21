@@ -13,8 +13,8 @@
           .contenedor-traductor__eng
             p
               span.r-4.fst-italic The verb "to be" is an irregular verb that has different forms depending on the tense in which it is conjugated. In the past, it has two forms: "was" and "were", determined by the grammatical person with which it is conjugated, and can be used as a main verb (for example, in the simple past) or as an auxiliary verb (for example, in the past progressive).
-          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p El verbo "to be" (ser/estar) es un verbo irregular que tiene diferentes formas según el tiempo en el que esté conjugado. En pasado, tiene dos formas: "was" y "were", dependiendo de la persona gramatical con la que esté conjugado, y puede ser usado como verbo principal (por ejemplo, en el pasado simple) o como verbo auxiliar (por ejemplo, en el pasado progresivo).
+          .contenedor-traductor__esp(:class="{ mostrar: FocultarEsp}")
+            p El verbo <em>"to be"</em> (ser/estar) es un verbo irregular que tiene diferentes formas según el tiempo en el que esté conjugado. En pasado, tiene dos formas: <em>"was"</em> y <em>"were"</em>, dependiendo de la persona gramatical con la que esté conjugado, y puede ser usado como verbo principal (por ejemplo, en el pasado simple) o como verbo auxiliar (por ejemplo, en el pasado progresivo).
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
@@ -394,7 +394,7 @@
                   )
                   p.ms-2 Ellos fueron amables conmigo.
               p
-                span.r-4.fw-normal It is used in certain cases, such as some conditional clauses, in the subjunctive mood and after the verb <b>“wish”</b>, with all grammatical persons regardless of whether they are singular or plural: <b>I, you</b> (both singular and plural), <b>he, she, it, we, they.</b>
+                span.r-4.fw-normal.fst-italic It is used in certain cases, such as some conditional clauses, in the subjunctive mood and after the verb <b>“wish”</b>, with all grammatical persons regardless of whether they are singular or plural: <b>I, you</b> (both singular and plural), <b>he, she, it, we, they.</b>
                 br
                 br
                 |Es usado en ciertos casos, como en algunas cláusulas condicionales, en el modo subjuntivo y después del verbo 
@@ -602,7 +602,7 @@
                   texto="You weren’t chubby."
                   :audio="require('@/assets/audios/tema1/42.mp3')"
                   )
-                  p.ms-2.mb-0 Tú no eras regordetes.
+                  p.ms-2.mb-0 Tú no eras regordete.
                 .carousel-item.p-5
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="They weren’t quiet."
