@@ -248,7 +248,7 @@
               | Usamos 
               span.r-4.fst-italic “yesterday” 
               | o 
-              span.fw-bold <em>“yesterday + morning</em> (en la mañana) <em>/at noon</em> (al mediodía)  / <em>afternoon</em> (en la tarde) / <em>evening</em> (en la tarde-noche)” 
+              span.fw-bold <em>“yesterday + morning</em> (en la mañana) <em>/ at noon</em> (al mediodía)  / <em>afternoon</em> (en la tarde) / <em>evening</em> (en la tarde-noche)” 
               | para hablar de los momentos del día antes de hoy.
           .col-md-5.mb-4.mb-md-0
             .row.justify-content-center.mb-5
