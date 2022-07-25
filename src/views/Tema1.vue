@@ -7,13 +7,13 @@
         span 1
       h1 Verb To be in the past tense (Verbo To be en pasado)
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/00.png', alt='')
-      .col-lg-6
+      .col-lg-2.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/00.svg', alt='')
+      .col-lg-10
         .contenedor-traductor
           .contenedor-traductor__eng
             p
-              span.r-4.fst-italic The verb "to be" is an irregular verb that has different forms depending on the tense in which it is conjugated. In the past, it has two forms: "was" and "were", determined by the grammatical person with which it is conjugated, and can be used as a main verb (for example, in the simple past) or as an auxiliary verb (for example, in the past progressive).
-          .contenedor-traductor__esp(:class="{ mostrar: FocultarEsp}")
+              span.r-3.fst-italic.fw-normal The verb "to be" is an irregular verb that has different forms depending on the tense in which it is conjugated. In the past, it has two forms: "was" and "were", determined by the grammatical person with which it is conjugated, and can be used as a main verb (for example, in the simple past) or as an auxiliary verb (for example, in the past progressive).
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p El verbo <em>"to be"</em> (ser/estar) es un verbo irregular que tiene diferentes formas según el tiempo en el que esté conjugado. En pasado, tiene dos formas: <em>"was"</em> y <em>"were"</em>, dependiendo de la persona gramatical con la que esté conjugado, y puede ser usado como verbo principal (por ejemplo, en el pasado simple) o como verbo auxiliar (por ejemplo, en el pasado progresivo).
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -284,17 +284,21 @@
               img.mb-5(src='@/assets/curso/temas/9.svg', alt='')
     Separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 1.2. Differences: Was vs. Were (Diferencias: Was vs. Were) 
-    p.mb-5(data-aos='fade-right') 
-      span.r-4.fw-normal Although both <b>“was”</b> and <b>“were”</b> are the past tense forms of the verb <b>“to be”</b>, they are used with different grammatical persons in the indicative mood, and in the subjunctive mood the rules for their use change. But the first question is: What are the indicative mood and the subjunctive mood?
-      br
-      | Si bien, tanto 
-      span.r-4 “was” 
-      | como 
-      span.r-4 “were” 
-      | son las formas en pasado del verbo 
-      span.r-4 “to be”, 
-      | se usan con diferentes personas gramaticales en el modo indicativo; y en el modo subjuntivo, las reglas para su uso cambian. Pero la primera pregunta es: <b>¿qué son el modo indicativo y el modo subjuntivo?</b>
+      h2 1.2. Differences: Was vs. Were (Diferencias: Was vs. Were)
+    .row.justify-content-center.mb-5
+      .col-lg-5: img(src='@/assets/curso/temas/c1.jpg', alt='') 
+      .col-lg-7 
+        p.mb-5(data-aos='fade-right') 
+          span.r-3.fw-normal Although both <b>“was”</b> and <b>“were”</b> are the past tense forms of the verb <b>“to be”</b>, they are used with different grammatical persons in the indicative mood, and in the subjunctive mood the rules for their use change. But the first question is: What are the indicative mood and the subjunctive mood?
+          br
+          br
+          | Si bien, tanto 
+          span.r-3 “was” 
+          | como 
+          span.r-3 “were” 
+          | son las formas en pasado del verbo 
+          span.r-3 “to be”, 
+          | se usan con diferentes personas gramaticales en el modo indicativo; y en el modo subjuntivo, las reglas para su uso cambian. Pero la primera pregunta es: <b>¿qué son el modo indicativo y el modo subjuntivo?</b>
     .row.justify-content-center.mb-5
       .col-lg-3
         .tarjeta.color-primario.p-4.h-100
@@ -316,10 +320,19 @@
           p 
             span.text-white.fw-normal Grammatical mood used to express a wish or suggestion, hypothetical or improbable situations, things that are not real.
           p Modo gramatical utilizado para expresar un deseo o sugerencia, situaciones hipotéticas o improbables, cosas que no son reales.
-    p.mb-5(data-aos='fade-right') 
-      span.r-4.fw-normal Knowing this, let's compare <b>“was”</b> and <b>“were”</b> to clarify how and when to use them correctly, since even native English speakers and people who have been learning this language for a long time make common mistakes when speaking and writing.
-      br
-      | Sabiendo esto, vamos a comparar <b>“was”</b> y <b>“were”</b> para aclarar cómo y cuándo usarlos correctamente, porque incluso los hablantes nativos de inglés y las personas que llevan mucho tiempo aprendiendo este idioma cometen errores comunes al hablar y escribir.
+    div(style='background-color: #eda0a8').mb-5
+      .row.justify-content-center
+        .col-lg-4: img(src='@/assets/curso/temas/c2.png', alt='')
+        .col-lg-8
+          p.p-lg-4(data-aos='fade-right') 
+            span.r-3.fw-normal Knowing this, let's compare <b>“was”</b> and <b>“were”</b> to clarify how and when to use them correctly, since even native English speakers and people who have been learning this language for a long time make common mistakes when speaking and writing.
+            br
+            br
+            | Sabiendo esto, vamos a comparar 
+            span.r-3.fst-italic <b>“was”</b> 
+            | y 
+            span.r-3.fst-italic <b>“were”</b> 
+            | para aclarar cómo y cuándo usarlos correctamente, porque incluso los hablantes nativos de inglés y las personas que llevan mucho tiempo aprendiendo este idioma cometen errores comunes al hablar y escribir.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
       span Was vs. Were
@@ -333,13 +346,13 @@
               h2.mb-0.fst-italic WAS
             .card-was__content.p-5
               p 
-                span.r-4.fw-normal.fst-italic It is used in the indicative mood, when something real happened in the past, only with the first and third singular person: <b>I, he, she, it.</b>
+                span.r-3.fw-normal.fst-italic It is used in the indicative mood, when something real happened in the past, only with the first and third singular person: <b>I, he, she, it.</b>
                 br
                 br
                 |Es usado en el modo indicativo, cuando algo real sucedió en el pasado, solamente con la primera y tercera persona singular: 
-                span.r-4.fst-italic <b>I, he, she, it.</b>
+                span.r-3.fst-italic <b>I, he, she, it.</b>
               p
-                span.r-4 For example / 
+                span.r-3 For example / 
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
                 .col-lg-4.col-8.mb-lg-0.mb-3
@@ -365,15 +378,15 @@
               h2.mb-0.fst-italic WERE
             .card-was__content.scroll.p-5
               p
-                span.r-4.fst-italic.fw-normal It is used in the indicative mood, when something real happened in the past, with the other grammatical persons: <b>you</b> (both singular and plural), <b>we, they.</b>
+                span.r-3.fst-italic.fw-normal It is used in the indicative mood, when something real happened in the past, with the other grammatical persons: <b>you</b> (both singular and plural), <b>we, they.</b>
                 br
                 br
                 | Es usado en el modo indicativo, cuando algo real sucedió en el pasado, con las demás personas gramaticales: 
-                span.r-4.fst-italic you 
+                span.r-3.fst-italic you 
                 | (tanto singular como plural), 
-                span.r-4.fst-italic we, they.
+                span.r-3.fst-italic we, they.
               p
-                span.r-4 For example /  
+                span.r-3 For example /  
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
                 .col-lg-4.col-8.mb-lg-0.mb-3
@@ -394,17 +407,17 @@
                   )
                   p.ms-2 Ellos fueron amables conmigo.
               p
-                span.r-4.fw-normal.fst-italic It is used in certain cases, such as some conditional clauses, in the subjunctive mood and after the verb <b>“wish”</b>, with all grammatical persons regardless of whether they are singular or plural: <b>I, you</b> (both singular and plural), <b>he, she, it, we, they.</b>
+                span.r-3.fw-normal.fst-italic It is used in certain cases, such as some conditional clauses, in the subjunctive mood and after the verb <b>“wish”</b>, with all grammatical persons regardless of whether they are singular or plural: <b>I, you</b> (both singular and plural), <b>he, she, it, we, they.</b>
                 br
                 br
                 |Es usado en ciertos casos, como en algunas cláusulas condicionales, en el modo subjuntivo y después del verbo 
-                span.r-4.fst-italic “wish”, 
+                span.r-3.fst-italic “wish”, 
                 | con todas las personas gramaticales, sin importar si son las singulares o plurales: 
-                span.r-4.fst-italic I, you 
+                span.r-3.fst-italic I, you 
                 | (tanto singular como plural), 
-                span.r-4.fst-italic he, she, it, we, they.
+                span.r-3.fst-italic he, she, it, we, they.
               p
-                span.r-4 For example / 
+                span.r-3 For example / 
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
                 .col-lg-4.col-8.mb-lg-0.mb-3
@@ -462,242 +475,211 @@
               a.boton.color-primario(:href="obtenerLink('downloads/structure.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    .contenedor-degrade.p-5.mb-5
-      p.mb-5(data-aos='fade-right').ms-5.fw-bold Estructuras gramaticales del verbo 
-        span.r-4 “To be”
-      .tarjeta.color-acento-botones--borde.bg-white.p-5.mb-4
-        .row.justify-content-center.align-items-end.mb-5
-          .col-lg-3.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/19.svg', alt='')
-          .col-lg-8
-            #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel' data-bs-iterval='false')(style='background-color: #6b8dff').px-3
-              .carousel-indicators
-                button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='2' aria-label='Slide 3')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='3' aria-label='Slide 4')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='4' aria-label='Slide 5')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='5' aria-label='Slide 6')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='6' aria-label='Slide 7')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='7' aria-label='Slide 8')
-              .carousel-inner.px-5
-                .carousel-item.active.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="I was happy. "
-                  :audio="require('@/assets/audios/tema1/28.mp3')"
+    .tarjeta-bg.p-5
+      .row.justify-content-center.align-items-end.mb-5
+        .col-lg-3.col-8.mb-lg-0.mb-3
+          img.d-none.d-lg-block(src='@/assets/curso/temas/c3.png', alt='')
+        .col-lg-9
+          .tarjeta.bg-white.p-5
+            SlyderA(tipo='b')
+              div
+                p
+                  span.r-3.fst-italic Affirmative 
+                  | / Afirmativa
+                .row.justify-content-center.mb-5
+                  .col-lg-10
+                    img.d-lg-block.d-none(src='@/assets/curso/temas/s1.svg', alt='').mb-3
+                    img.d-block.d-lg-none(src='@/assets/curso/temas/s2.svg', alt='').mb-3
+                TarjetaAudio.color-acento-botones.bg-white(
+                  texto=""
+                  :audio="require('@/assets/audios/tema1/a1.mp3')"
                   )
-                  p.ms-2.mb-0 Yo era feliz.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="You were at school. "
-                  :audio="require('@/assets/audios/tema1/29.mp3')"
+              div
+                p
+                  span.r-3.fst-italic Negative 
+                  | / Negativa
+                .row.justify-content-center.mb-5
+                  .col-lg-10
+                    img.d-lg-block.d-none(src='@/assets/curso/temas/s3.svg', alt='')
+                    img.d-block.d-lg-none(src='@/assets/curso/temas/s4.svg', alt='')
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                  texto=""
+                  :audio="require('@/assets/audios/tema1/a2.mp3')"
                   )
-                  p.ms-2.mb-0 Tú estabas en la escuela.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="He was thirsty. "
-                  :audio="require('@/assets/audios/tema1/30.mp3')"
+              div
+                p
+                  span.r-3.fst-italic Yes or No Questions 
+                  | / Preguntas de Sí o No
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/21.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Affirmative
+                        br
+                        | Afirmativa
+                  .col-lg-4.mb-lg-0.mb-3
+                    p She 
+                      span.r-3.fw-italic was 
+                      | intelligent.
+                  .col-lg-4.mb-lg-0.mb-3
+                    p Ella <b>era</b> inteligente.
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/22.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Interrogative
+                        br
+                        | Interrogativa
+                  .col-lg-4.mb-lg-0.mb-3
+                    p 
+                      span.r-3.fw-italic Was 
+                      | she intelligent?
+                  .col-lg-4.mb-lg-0.mb-3
+                    p Ella <b>era</b> inteligente.
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/23.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Short answer
+
+                        br
+                        | Respuestas cortas
+                  .col-lg-4.mb-lg-0.mb-3
+                    p - Yes, she 
+                      span.r-3.fw-italic was.
+                      br
+                      |- No, she 
+                      span.r-3.fw-italic wasn’t.
+                  .col-lg-4.mb-lg-0.mb-3
+                    p Si.
+                      br
+                      |No.
+                hr
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/21.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Affirmative
+                        br
+                        | Afirmativa
+                  .col-lg-4.mb-lg-0.mb-3
+                    p They 
+                      span.r-3.fw-italic were 
+                      | students
+                  .col-lg-4.mb-lg-0.mb-3
+                    p Ellos <b>eran</b> estudiantes.
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/22.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Interrogative
+                        br
+                        | Interrogativa
+                  .col-lg-4.mb-lg-0.mb-3
+                    p 
+                      span.r-3.fw-italic Were 
+                      | they students?
+                  .col-lg-4.mb-lg-0.mb-3
+                    p ¿Ellos <b>eran</b> estudiantes?
+                .row.justify-content-center.mb-3
+                  .col-lg-4.mb-lg-0.mb-3
+                    .d-flex.align-items-center
+                      img(src='@/assets/curso/temas/23.svg', alt='' style='width: 49px').me-3
+                      p
+                        span.r-3.fst-italic Short answer
+
+                        br
+                        | Respuestas cortas
+                  .col-lg-4.mb-lg-0.mb-3
+                    p - Yes, they 
+                      span.r-3.fw-italic were.
+                      br
+                      |- No, they 
+                      span.r-3.fw-italic weren’t.
+                  .col-lg-4.mb-lg-0.mb-3
+                    p Si.
+                      br
+                      |No.
+                    
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                  texto=""
+                  :audio="require('@/assets/audios/tema1/a3.mp3')"
                   )
-                  p.ms-2.mb-0 Él estaba sediento.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="She was a waitress. "
-                  :audio="require('@/assets/audios/tema1/31.mp3')"
+              div
+                p
+                  span.r-3.fst-italic Information Questions 
+                  | / Preguntas de información
+                .row.justify-content-center.mb-5
+                  .col-lg-10
+                    img.d-lg-block.d-none(src='@/assets/curso/temas/s5.svg', alt='')
+                    img.d-block.d-lg-none(src='@/assets/curso/temas/s6.svg', alt='')
+                .row.justify-content-center.mb-5
+                  .col-lg-5
+                    p.mb-1.fst-italic
+                      span.r-3 Where 
+                      span.r-4 was 
+                      span.r-3 he yesterday?
+                    p.mb-1.fst-italic
+                      span.r-3 Why  
+                      span.r-4 were 
+                      span.r-3 they angry? 
+                    p.mb-1.fst-italic
+                      span.r-3 When 
+                      span.r-4 were 
+                      span.r-3 you a student? 
+                  .col-lg-5
+                    p.mb-1 ¿Dónde <b>estaba</b> él ayer?
+                    p.mb-1 ¿Por qué ellos <b>estaban</b> enojados?
+                    p.mb-1 ¿Cuándo <b>eras</b> tú un estudiante?
+                TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                  texto=""
+                  :audio="require('@/assets/audios/tema1/a4.mp3')"
                   )
-                  p.ms-2.mb-0 Ella era una mesera.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="It was small. "
-                  :audio="require('@/assets/audios/tema1/32.mp3')"
-                  )
-                  p.ms-2.mb-0 (Eso) Era pequeño.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="We were in the theater. "
-                  :audio="require('@/assets/audios/tema1/33.mp3')"
-                  )
-                  p.ms-2.mb-0 Nosotros estábamos en el teatro.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="You were skinny. "
-                  :audio="require('@/assets/audios/tema1/34.mp3')"
-                  )
-                  p.ms-2.mb-0 Ustedes eran delgados.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="They were noisy. "
-                  :audio="require('@/assets/audios/tema1/35.mp3')"
-                  )
-                  p.ms-2.mb-0 Ellos eran ruidosos.
-                  
-                
-              button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-                span.carousel-control-prev-icon(aria-hidden='true')
-                span.visually-hidden Previous
-              button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-                span.carousel-control-next-icon(aria-hidden='true')
-                span.visually-hidden Next
-        div(style='background-color: #e1e8ff ').p-4
-          p.fst-italic.text-center.mb-0
-            span.r-4 Subject 
-            span.r-3 / Sujeto + 
-            span.r-4 Verb “to be” 
-            span.r-3 / Verbo “to be” + 
-            span.r-4 Complement 
-            span.r-3 / Complemento
-      .tarjeta.color-acento-botones--borde.bg-white.p-5.mb-4
-        .row.justify-content-center.align-items-end.mb-5
-          .col-lg-3.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/20.svg', alt='')
-          .col-lg-8
-            #carouselExampleIndicators2.carousel.slid2e(data-bs-ride='carousel' data-bs-iterval='false')(style='background-color: #ff5f65').px-3
-              .carousel-indicators
-                button.active(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='1' aria-label='Slide 2')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='2' aria-label='Slide 3')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='3' aria-label='Slide 4')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='4' aria-label='Slide 5')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='5' aria-label='Slide 6')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='6' aria-label='Slide 7')
-                button(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide-to='7' aria-label='Slide 8')
-              .carousel-inner.px-5
-                .carousel-item.active.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="I wasn’t sad. "
-                  :audio="require('@/assets/audios/tema1/36.mp3')"
-                  )
-                  p.ms-2.mb-0 Yo no estaba triste. 
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="You weren’t at home. "
-                  :audio="require('@/assets/audios/tema1/37.mp3')"
-                  )
-                  p.ms-2.mb-0 Tú no estabas en casa.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="He wasn’t hungry."
-                  :audio="require('@/assets/audios/tema1/38.mp3')"
-                  )
-                  p.ms-2.mb-0 Él no estaba hambriento.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="She wasn’t an actress."
-                  :audio="require('@/assets/audios/tema1/39.mp3')"
-                  )
-                  p.ms-2.mb-0 Ella no era una actriz.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="It wasn’t big."
-                  :audio="require('@/assets/audios/tema1/40.mp3')"
-                  )
-                  p.ms-2.mb-0 (Eso) No era grande.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="We weren’t in the park."
-                  :audio="require('@/assets/audios/tema1/41.mp3')"
-                  )
-                  p.ms-2.mb-0 Nosotros no estábamos en el parque.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="You weren’t chubby."
-                  :audio="require('@/assets/audios/tema1/42.mp3')"
-                  )
-                  p.ms-2.mb-0 Tú no eras regordete.
-                .carousel-item.p-5
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="They weren’t quiet."
-                  :audio="require('@/assets/audios/tema1/43.mp3')"
-                  )
-                  p.ms-2.mb-0 Ellos no estaban callados.
-                  
-                
-              button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='prev')
-                span.carousel-control-prev-icon(aria-hidden='true')
-                span.visually-hidden Previous
-              button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators2' data-bs-slide='next')
-                span.carousel-control-next-icon(aria-hidden='true')
-                span.visually-hidden Next
-        div(style='background-color: #e1e8ff ').p-4
-          p.fst-italic.text-center.mb-0
-            span.r-4 Subject 
-            span.r-3 / Sujeto + 
-            span.r-4 Verb “to be” + not 
-            span.r-3 / Verbo “to be” + “not” + 
-            span.r-4 Complement 
-            span.r-3 / Complemento
-      p.mb-5(data-aos='fade-right').ms-5.fw-bold 
-        span.r-4.fst-italic Yes or No Questions   
-        | / Preguntas de Sí o No
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4
-          .d-flex.align-items-center
-            img(src='@/assets/curso/temas/21.svg', alt='' style='width: 85px').me-4
-            h5.mb-0
-              span.r-4.fst-italic Affirmative
-              br
-              span.r-3 Afirmativa
-        .col-lg-8
-          .row.justify-content-center.mb-5
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="She was intelligent."
-              :audio="require('@/assets/audios/tema1/46.mp3')"
-              )
-              p.ms-2.mb-0 Ella era inteligente.
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="They were students."
-              :audio="require('@/assets/audios/tema1/47.mp3')"
-              )
-              p.ms-2.mb-0 Ellos eran estudiantes.
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4
-          .d-flex.align-items-center
-            img(src='@/assets/curso/temas/22.svg', alt='' style='width: 85px').me-4
-            h5.mb-0
-              span.r-4.fst-italic Interrogative
-              br
-              span.r-3 Interrogativa
-        .col-lg-8
-          .row.justify-content-center.mb-5
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Was she intelligent?"
-              :audio="require('@/assets/audios/tema1/48.mp3')"
-              )
-              p.ms-2.mb-0 ¿Ella era inteligente?
-            .col-lg-6
-              TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Were they students?"
-              :audio="require('@/assets/audios/tema1/49.mp3')"
-              )
-              p.ms-2.mb-0 ¿Ellos eran estudiantes?
-      .tarjeta.color-acento-botones--borde.bg-white.p-5.mb-4
-        p.mb-5(data-aos='fade-right').ms-5.fw-bold 
-          span.r-4.fst-italic Information Questions  
-          | / Preguntas de información
-        //TODO ANADIR INFOGRAFIA
-        img.d-none.d-lg-block(src='@/assets/curso/temas/img1.svg', alt='').mb-3
-        img.d-block.d-lg-none(src='@/assets/curso/temas/img2.svg', alt='').mb-3
-        .row.justify-content-center.mb-5
-          .col-lg-3
-            TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Where was he yesterday?"
-              :audio="require('@/assets/audios/tema1/64.mp3')"
-              )
-            p.ms-3 ¿Dónde estaba él ayer?
-          .col-lg-3
-            TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="Why were they angry?"
-              :audio="require('@/assets/audios/tema1/65.mp3')"
-              )
-            p.ms-3 ¿Por qué ellos estaban enojados?
-          .col-lg-3
-            TarjetaAudio.color-acento-botones.bg-white.mb-3(
-              texto="When were you a student?"
-              :audio="require('@/assets/audios/tema1/66.mp3')"
-              )
-            p.ms-3 ¿Cuándo eras tú un estudiante?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .contenedor-franja.margin-n
       .franja
       .contenido.px-5
@@ -773,9 +755,9 @@ export default {
     overflow-x: hidden
 
   &__title
-    background-color: $color-acento-botones
+    background-color: $color-acento-contenido
     h2
-      color: $color-acento-contenido
+      color: $white
     text-align: center
   &__content
     background-color: #e1e8ff
@@ -796,4 +778,9 @@ export default {
     background-color: #01ac57 !important
   .tarjeta-audio__texto
     color: #01ac57 !important
+.tarjeta-bg
+  background-image: url('../assets/curso/temas/bg.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 </style>

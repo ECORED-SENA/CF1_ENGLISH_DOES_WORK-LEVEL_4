@@ -153,6 +153,33 @@
           texto=""
           :audio="require('@/assets/audios/tema3/a1.mp3')"
           )
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .contenedor-franja.margin-n
+      .franja(style= 'height: 80%')
+        .contenido.px-5
+          .row.justify-content-center.mb-5
+            .col-lg-2.col-8.mb-lg-0.mb-3
+              img(src='@/assets/curso/temas/warning.svg', alt='')
+            .col-lg-10
+              h5.mb-5
+                span.r-4 Warning #5
+                br
+                | Advertencia #5
+              p.mb-5 
+                span.r-1.fw-normal.fst-italic “Evening” is the part of the day between the end of the afternoon and the night, and there is no exact word for this in Spanish; instead “night” can be interpreted directly as “noche”.
+                  br
+                  |Knowing this, with “evening” we use “yesterday”. With “night” instead, we say “last night”, NOT “yesterday night”.
+                  br
+                  |We also use the expression “the day before yesterday” to refer to “two days ago”, or in Spanish “anteayer”.
+
+                br
+                br
+                span.text-white <em>“Evening”</em> es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio <em>“night”</em> sí puede interpretarse directamente como “noche”.
+                  br
+                  |Ya sabiendo esto, con <em>“evening”</em> sí usamos <em>“yesterday”</em>. Con <em>“night”</em>, en cambio, decimos <em>“last night”</em>, NO <em>“yesterday night”.</em>
+                  br
+                  |También usamos la expresión <em>“the day before yesterday”</em> para referirnos a “hace dos días”, o en español “anteayer”.
 
 
 
