@@ -475,7 +475,7 @@
               a.boton.color-primario(:href="obtenerLink('downloads/structure.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    .tarjeta-bg.p-5
+    .tarjeta-bg.p-5.mb-5
       .row.justify-content-center.align-items-end.mb-5
         .col-lg-3.col-8.mb-lg-0.mb-3
           img.d-none.d-lg-block(src='@/assets/curso/temas/c3.png', alt='')

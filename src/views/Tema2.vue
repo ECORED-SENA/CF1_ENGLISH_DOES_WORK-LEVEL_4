@@ -7,13 +7,13 @@
         span 2
       h1 Time expressions for Past Tense (Expresiones temporales para el tiempo pasado)
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3
-        img(src='@/assets/curso/temas/24.png', alt='')
-      .col-lg-6
+      .col-lg-2.col-8.mb-lg-0.mb-3
+        img(src='@/assets/curso/temas/c4.svg', alt='')
+      .col-lg-10
         .contenedor-traductor
           .contenedor-traductor__eng
             p
-              span.r-4.fst-italic We use simple past tense to talk about things that happened before the present tense, and to better reference the time in which they happened, we can add certain words or temporary expressions called adverbs of time to complement the sentence. The ones most often used in the past are:
+              span.r-3.fst-italic.fw-normal We use simple past tense to talk about things that happened before the present tense, and to better reference the time in which they happened, we can add certain words or temporary expressions called adverbs of time to complement the sentence. The ones most often used in the past are:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p El pasado simple sirve para hablar de cosas que ocurrieron antes del tiempo presente, y para referenciar mejor el tiempo en el que ocurrieron se puede agregar al complemento de la oración ciertas palabras o expresiones temporales llamadas adverbios de tiempo. Los que se usan con más frecuencia en el pasado son:
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
@@ -117,64 +117,83 @@
     p.mb-5(data-aos='fade-right') A continuación, conozca las expresiones de tiempo para el pasado simple, explorando el siguiente recurso:
     TabsB.color-secundario.mb-5
       .p-5.py-md-5(titulo="Last" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
-        .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
-            h4
-              span.r-3 Last 
-            p.mb-5
-              span.r-4.fst-italic We use “last” + “time reference" to refer to the particular moment we are pointing to, whichever is most recent or close to the present.
-              br
-              br
-              | Usamos 
-              span.r-4.fst-italic “last” 
-              | + “referencia temporal” para referirnos al momento en particular que estamos señalando, el cual es el más reciente o cercano al presente.
-          .col-md-5.mb-4.mb-md-0
-            .row.justify-content-center.mb-5
-              .col-lg-6
+        .row.justify-content-center.mb-5
+          .col-md-10.mb-4.mb-md-0
+            .contenedor-traductor2
+              .contenedor-traductor2__eng
+                p
+                  span.r-3.fst-italic.fw-normal We use “last” + “time reference” to refer to the particular moment we are pointing to, whichever is most recent or close to the present.
+                    br
+                    br
+                    |In Spanish, we say “el verano pasado”, “la semana pasada”, “el año pasado”; but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.
+              .contenedor-traductor2__esp(:class="{ mostrar: ocultarEsp}")
+                p Usamos <em>“last”</em> + “referencia temporal” para referirnos al momento en particular que estamos señalando, el cual es el más reciente o cercano al presente.
+                  br
+                  br
+                  |En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés, no usamos el artículo definido <em>“the”</em>, se dice <em>“last summer”, “last week”, “last year”</em>, NO se dice <em>“the last summer”, “the last week”, “the last year”</em>.
+              a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
+          .col-md-2.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/c5.png' alt='AvatarTop')
+        .row.mb-5
+          .col-lg-9
+            .row.justify-content-center
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="Summer"
+                texto="Last Summer"
                 :audio="require('@/assets/audios/tema2/18.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="Christmas"
+                texto="Last Christmas"
                 :audio="require('@/assets/audios/tema2/20.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="April"
+                texto="Last April"
                 :audio="require('@/assets/audios/tema2/22.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="night"
+                texto="Last night"
                 :audio="require('@/assets/audios/tema2/24.mp3')"
                 )
-              .col-lg-6
+            .row.justify-content-center.mb-3
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="year"
+                texto="Last year"
                 :audio="require('@/assets/audios/tema2/19.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="month"
+                texto="Last month"
                 :audio="require('@/assets/audios/tema2/21.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="week"
+                texto="Last week"
                 :audio="require('@/assets/audios/tema2/23.mp3')"
                 )
+              .col-lg-3
                 TarjetaAudio.color-acento-botones.bg-white.mb-2(
-                texto="Sunday"
+                texto="Last Sunday"
                 :audio="require('@/assets/audios/tema2/25.mp3')"
                 )
-        div(style='background-color: #6b8dff').p-4
-          p 
-            span.text-white.fw-bold <em>In Spanish, we say</em> “el verano pasado”, “la semana pasada”, “el año pasado”; <em>but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.</em>
-            br
-            br
-            | En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés, no usamos el artículo definido 
-            span.text-white.fst-italic.fw-bold “the”
-            | , se dice 
-            span.text-white.fst-italic.fw-bold “last summer”, “last week”, “last year”, 
-            | NO se dice
-            span.text-white.fst-italic.fw-bold  “the last summer”, “the last week”, “the last year”.
+        p
+          span.r-3.fst-italic For example
+          | / Por ejemplo: 
+        .row.mb-5
+          .col-lg-4
+            TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="I was very tired last night"
+                :audio="require('@/assets/audios/tema2/a1.mp3')"
+                )
+            p.ms-4 Yo estaba muy cansada anoche
+          .col-lg-4
+            TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                texto="They were in Europe last summer"
+                :audio="require('@/assets/audios/tema2/a2.mp3')"
+                )
+            p.ms-4 Ellos estuvieron en Europa el verano pasado 
       .p-5.py-md-5(titulo="Ago" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #fff7da")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0

@@ -13,7 +13,7 @@
         .contenedor-traductor
           .contenedor-traductor__eng
             p
-              span.r-4.fst-italic To be able to describe and talk about situations in our personal lives that have occurred in the past, it is necessary to know not only expressions of the time context, but it is also important to delve into the appropriate vocabulary, which is the main input that allows us to build the ideas that we want to convey about our life, our experiences, our memories, etc.
+              span.r-3.fst-italic.fw-normal To be able to describe and talk about situations in our personal lives that have occurred in the past, it is necessary to know not only expressions of the time context, but it is also important to delve into the appropriate vocabulary, which is the main input that allows us to build the ideas that we want to convey about our life, our experiences, our memories, etc.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p Para poder describir y hablar sobre situaciones de nuestra vida personal ocurridas en el pasado, es necesario conocer no solo expresiones propias del contexto temporal, también es importante profundizar en el vocabulario adecuado, el cual es el principal insumo que nos permite construir las ideas que queremos transmitir sobre nuestra vida, nuestras experiencias, nuestros recuerdos, etc.
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
@@ -153,48 +153,6 @@
           texto=""
           :audio="require('@/assets/audios/tema3/a1.mp3')"
           )
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .contenedor-franja.margin-n
-      .franja(style= 'height: 80%')
-        .contenido.px-5
-          .row.justify-content-center.mb-5
-            .col-lg-2.col-8.mb-lg-0.mb-3
-              img(src='@/assets/curso/temas/warning.svg', alt='')
-            .col-lg-10
-              h5.mb-5
-                span.r-4 Warning #5
-                br
-                | Advertencia #5
-              p.mb-5 
-                span.r-1.fw-normal.fst-italic “Evening” is the part of the day between the end of the afternoon and the night, and there is no exact word for this in Spanish; instead “night” can be interpreted directly as “noche”.
-                  br
-                  |Knowing this, with “evening” we use “yesterday”. With “night” instead, we say “last night”, NOT “yesterday night”.
-                  br
-                  |We also use the expression “the day before yesterday” to refer to “two days ago”, or in Spanish “anteayer”.
-
-                br
-                br
-                span.text-white <em>“Evening”</em> es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio <em>“night”</em> sí puede interpretarse directamente como “noche”.
-                  br
-                  |Ya sabiendo esto, con <em>“evening”</em> sí usamos <em>“yesterday”</em>. Con <em>“night”</em>, en cambio, decimos <em>“last night”</em>, NO <em>“yesterday night”.</em>
-                  br
-                  |También usamos la expresión <em>“the day before yesterday”</em> para referirnos a “hace dos días”, o en español “anteayer”.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .contenedor-franja.margin-n
       .franja(style= 'height: 80%')
@@ -256,14 +214,17 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 3.2. <em>The stages of my life</em> (Las etapas de mi vida)
-    p.mb-5(data-aos='fade-right')
-      span.r-4.fst-italic.fw-normal In life there are different stages in which very specific events are lived and those events have to be told using specific vocabulary and expressions in order to make others understand the context.
-      br
-      br
-      |En la vida, existen diferentes etapas en las cuales se viven eventos muy específicos que deben poder contarse usando el correcto vocabulario y expresiones para dar a entender el contexto.
-      br
-      br
-      |Lo invitamos a conocer las etapas de la vida utilizando expresiones en inglés.
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        p.mb-5(data-aos='fade-right')
+          span.r-3.fst-italic.fw-normal In life there are different stages in which very specific events are lived and those events have to be told using specific vocabulary and expressions in order to make others understand the context.
+          br
+          br
+          |En la vida, existen diferentes etapas en las cuales se viven eventos muy específicos que deben poder contarse usando el correcto vocabulario y expresiones para dar a entender el contexto.
+          br
+          br
+          |Lo invitamos a conocer las etapas de la vida utilizando expresiones en inglés.
+      .col-lg-5: img(src='@/assets/curso/temas/c6.jpg', alt='')
     SlyderF.mb-5(columnas="col-lg-1 col-xl-3")
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100

@@ -69,8 +69,37 @@
     cursor: pointer
     &:hover
       background-color: darken(#ff5f65, 2 )
+.contenedor-traductor2
+  position: relative
+  background-color: #fff0b5
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    transform: translateY(100%) translateX(-13%)
+    background-color: #ff5f65
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    cursor: pointer
+    &:hover
+      background-color: darken(#ff5f65, 2 )
 .mostrar
   display: none
 .tarjeta-audio__texto
   color: #3c3fa7 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0px
+  background-image: url('../assets/curso/temas/flecha-blanca.svg') !important
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0px
       
