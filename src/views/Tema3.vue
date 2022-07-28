@@ -21,7 +21,7 @@
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 3.1. <em>How I used to feel in the past</em> (Cómo solía sentirme en el pasado)
     p.mb-5(data-aos='fade-right')
-      span.r-4.fw-normal.fst-italic When we talk about how someone felt in the past, we have to use the verb “To be” and vocabulary to express feelings.
+      span.r-3.fw-normal.fst-italic When we talk about how someone felt in the past, we have to use the verb “To be” and vocabulary to express feelings.
       br
       br
       | Cuando se habla de cómo alguien se sentía en un momento del pasado, se debe usar el verbo “to be” en el pasado y vocabulario para expresar esos sentimientos.
@@ -33,67 +33,67 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/1.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Happy
+            span.r-3.fst-italic.fw-bold Happy
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/39.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/2.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Bored
+            span.r-3.fst-italic.fw-bold Bored
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/40.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/3.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold In love
+            span.r-3.fst-italic.fw-bold In love
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/41.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/4.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Sad
+            span.r-3.fst-italic.fw-bold Sad
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/42.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/5.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Excited
+            span.r-3.fst-italic.fw-bold Excited
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/43.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/6.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Jealous
+            span.r-3.fst-italic.fw-bold Jealous
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/7.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Angry
+            span.r-3.fst-italic.fw-bold Angry
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/45.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/8.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Worried
+            span.r-3.fst-italic.fw-bold Worried
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/46.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/9.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Exhausted
+            span.r-3.fst-italic.fw-bold Exhausted
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/47.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/10.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Scared
+            span.r-3.fst-italic.fw-bold Scared
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/48.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/11.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Lonely
+            span.r-3.fst-italic.fw-bold Lonely
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/49.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/12.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Proud
+            span.r-3.fst-italic.fw-bold Proud
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/50.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/13.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Grateful
+            span.r-3.fst-italic.fw-bold Grateful
     p.mb-5(data-aos='fade-right') Lea y escuche algunos ejemplos con su correspondiente pronunciación en inglés.
     div(style=' background-color: #fffbeb').p-5.mb-5
       p.fw-bold
@@ -158,11 +158,11 @@
       .franja(style= 'height: 80%')
       .contenido.px-5
         .row.justify-content-center.mb-5
-          .col-lg-2.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/warning.svg', alt='')
+          .col-lg-2.col-6.mb-lg-0.mb-3
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 130px').m-auto
           .col-lg-10
-            h5.mb-5
-              span.r-4 Warning #6
+            h5.mb-5.text-lg-white
+              span.r-3 Warning #6
               br
               | Advertencia #6
             p.mb-5 
@@ -177,29 +177,29 @@
         span.r-4.fst-italic For example 
         | / Por ejemplo:
       .row.justify-content-center
-        .col-lg-3
+        .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/t1.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/t1.svg' alt='AvatarTop' style='width: 85px')
             .tarjeta.color-acento-contenido.h-100
               .p-4
                 h5
                   span.r-1.fst-italic She is bored.
 
                 p.text-white.mb-0 Ella está aburrida.
-        .col-lg-3
+        .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/t2.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/t2.svg' alt='AvatarTop' style='width: 85px')
             .tarjeta.color-acento-contenido.h-100
               .p-4
                 h5
                   span.r-1.fst-italic He is bored.
                 p.text-white.mb-0 Él está aburrido
-        .col-lg-3
+        .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/t4.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/t4.svg' alt='AvatarTop' style='width: 85px')
             .tarjeta.color-acento-contenido.h-100
               .p-4
                 h5
@@ -212,7 +212,7 @@
           :audio="require('@/assets/audios/tema3/a2.mp3')"
           )
     Separador
-    #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-right' )
       h2 3.2. <em>The stages of my life</em> (Las etapas de mi vida)
     .row.justify-content-center.mb-5
       .col-lg-7
@@ -230,47 +230,47 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/19.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Childhood
+            span.r-3.fst-italic.fw-bold Childhood
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/20.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Newborn child
+            span.r-3.fst-italic.fw-bold Newborn child
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/31.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/21.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Toddlerhood
+            span.r-3.fst-italic.fw-bold Toddlerhood
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/32.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/22.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Preschool years
+            span.r-3.fst-italic.fw-bold Preschool years
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/33.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/23.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Early school years
+            span.r-3.fst-italic.fw-bold Early school years
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/34.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/24.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Adolescence 
+            span.r-3.fst-italic.fw-bold Adolescence 
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/35.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/25.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Young adulthood
+            span.r-3.fst-italic.fw-bold Young adulthood
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/36.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/26.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Middle adulthood
+            span.r-3.fst-italic.fw-bold Middle adulthood
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/37.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/27.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Late adulthood
+            span.r-3.fst-italic.fw-bold Late adulthood
     p.mb-5(data-aos='fade-right') A continuación, se invita a escuchar algunos ejemplos con su correspondiente pronunciación en inglés.
     .contenedor-audios-iconos.p-5(style='background-color: #6b8dff')
       .icono1.d-none.d-lg-block: img(src='@/assets/curso/temas/51.svg', alt='')        
@@ -315,7 +315,7 @@
     #t_3_3.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 3.3 <em>My social and family life</em> (Mi vida social y familiar)
     p.mb-5(data-aos='fade-right')
-      span.r-4.fst-italic Talking about social and family life is something natural and daily for most people and you have to have the right vocabulary to generate a conversation about the topic.
+      span.r-3.fst-italic Talking about social and family life is something natural and daily for most people and you have to have the right vocabulary to generate a conversation about the topic.
       br
       br
       |Hablar de la vida social y familiar es algo natural y cotidiano para la mayoría de personas y se debe contar con el vocabulario necesario para generar una conversación en torno al tema.
@@ -329,21 +329,21 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/33.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Birthday
+            span.r-3.fst-italic.fw-bold Birthday
             br
             span.r-3 Cumpleaños
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/54.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/34.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Thanksgiving
+            span.r-3.fst-italic.fw-bold Thanksgiving
             br
             span.r-3 Día de acción de gracias
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/55.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/35.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Summer vacation
+            span.r-3.fst-italic.fw-bold Summer vacation
 
             br
             span.r-3 Vacaciones de verano
@@ -351,7 +351,7 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/36.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Baptism
+            span.r-3.fst-italic.fw-bold Baptism
 
             br
             span.r-3 Bautizo
@@ -359,28 +359,28 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/37.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Anniversary
+            span.r-3.fst-italic.fw-bold Anniversary
             br
             span.r-3 Aniversario
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/58.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/38.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Birth
+            span.r-3.fst-italic.fw-bold Birth
             br
             span.r-3 Nacimiento
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/59.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/39.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Wedding
+            span.r-3.fst-italic.fw-bold Wedding
             br
             span.r-3 Boda
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/60.jpg')})`}" style='height: 303px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema3/40.mp3')")
           p.text-center
-            span.r-4.fst-italic.fw-bold Baby shower
+            span.r-3.fst-italic.fw-bold Baby shower
             br
             span.r-3 Baby shower (celebración antes del nacimiento del bebé)
     p.mb-5(data-aos='fade-right') Lea y escuche algunos ejemplos con su correspondiente pronunciación en inglés.

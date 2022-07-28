@@ -7,7 +7,7 @@
         span 1
       h1 Verb To be in the past tense (Verbo To be en pasado)
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/00.svg', alt='')
+      .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/00.svg', alt='')
       .col-lg-10
         .contenedor-traductor
           .contenedor-traductor__eng
@@ -97,16 +97,16 @@
                   )
                 td ellos eran/estaban
     .row.justify-content-center.mb-5
-      .col-lg-6
-        .d-flex.align-items-end.justify-content-start.mb-4
-          img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 63px;').me-3
-          .textos
-            h4.mb-0
-              span.r-4 Warning #1 
-              br
-              | Advertencia #1
+      .col-lg-6.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/1.png', alt='')
-        .tarjeta.rounded-0.color-acento-contenido.p-5
+        .tarjeta.rounded-0.color-acento-contenido.p-5.d-flex.flex-column
+          .d-flex.align-items-end.justify-content-start.mb-4.m-auto
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 63px;').me-3
+            .textos
+              h4.mb-0
+                span.r-1 Warning #1 
+                br
+                | Advertencia #1
           p 
             span.r-1.fw-normal As shown in the table, all singular persons use "was" except for "you", which uses "were" for both singular and plural.
             br
@@ -118,15 +118,15 @@
           )
           p.ms-2.mb-0 Ella estaba en la parte de atrás y tú estabas en el frente de la foto.
       .col-lg-6
-        .d-flex.align-items-end.mb-4
-          img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 63px;').me-3
-          .textos
-            h4.mb-0
-              span.r-4 Warning #2 
-              br
-              | Advertencia #2
         img(src='@/assets/curso/temas/2.png', alt='')
-        .tarjeta.rounded-0.color-acento-contenido.p-5
+        .tarjeta.rounded-0.color-acento-contenido.p-5.d-flex.flex-column
+          .d-flex.align-items-end.mb-4.m-auto
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 63px;').me-3
+            .textos
+              h4.mb-0
+                span.r-1 Warning #2 
+                br
+                | Advertencia #2
           p 
             span.r-1.fw-normal In Spanish, the verb "to be" can refer to "ser" or “estar" depending on the context of the sentence.
             br
@@ -147,18 +147,22 @@
               p.ms-2 Yo estaba en el salón de clases.
     Separador
     #t_1_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 1.1. Uses of the verb "to be" in the past tense (Usos del verbo "to be" en tiempo pasado)   
-    p.mb-5(data-aos='fade-right') 
-      span.r-4.fw-normal The verb "to be" is generally used as a main verb joining a subject with its complement, or it can also be used as an auxiliary verb to build a continuous tense. These are the most common uses of the verb "to be" in the past tense.
-      br
-      |El verbo "to be" generalmente es usado como verbo principal, uniendo a un sujeto con su complemento, o también puede ser usado como verbo auxiliar para construir un tiempo continuo. Estos son los usos más comunes del verbo "to be" en pasado.
+      h2 1.1. Uses of the verb "to be" in the past tense (Usos del verbo "to be" en tiempo pasado)
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.jpg', alt='')   
+      .col-lg-7
+        p.mb-5(data-aos='fade-right') 
+          span.r-3.fw-normal.fst-italic The verb "to be" is generally used as a main verb joining a subject with its complement, or it can also be used as an auxiliary verb to build a continuous tense. These are the most common uses of the verb "to be" in the past tense.
+          br
+          br
+          |El verbo "to be" generalmente es usado como verbo principal, uniendo a un sujeto con su complemento, o también puede ser usado como verbo auxiliar para construir un tiempo continuo. Estos son los usos más comunes del verbo "to be" en pasado.
     .row.justify-content-center.mb-5
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic Describe 
+                span.r-3.fst-italic Describe 
                 | / Describir
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="He was young and handsome."
@@ -177,7 +181,7 @@
               img.mb-5(src='@/assets/curso/temas/4.svg', alt='')
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic Locate 
+                span.r-3.fst-italic Locate 
                 | / Ubicar
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Sandra was in Colombia"
@@ -192,7 +196,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic Indicate feelings and states  
+                span.r-3.fst-italic Indicate feelings and states  
                 | / Indicar sentimientos y estados
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="John was happy with the news, but Ana was worried."
@@ -211,15 +215,15 @@
               img.mb-5(src='@/assets/curso/temas/6.svg', alt='')
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic It + was
+                span.r-3.fst-italic It + was
                 p 
-                  span.r-4.fst-italic.fw-normal To talk about time, distance, climate or cost. In this case, the verb <b>"to be"</b> is always used in the singular, <b>"was".</b>
+                  span.r-3.fst-italic.fw-normal To talk about time, distance, climate or cost. In this case, the verb <b>"to be"</b> is always used in the singular, <b>"was".</b>
                   br
                   br
                   |Para hablar del tiempo, distancia, clima o costo. En este caso el verbo 
-                  span.r-4 "to be" 
+                  span.r-3 "to be" 
                   | se usa siempre en singular, 
-                  span.r-4 "was".
+                  span.r-3 "was".
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I didn't know it was so late."
               :audio="require('@/assets/audios/tema1/18.mp3')"
@@ -233,9 +237,9 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic.fw-norma There was - There were
+                span.r-3.fst-italic.fw-norma There was - There were
               p
-                span.r-4.fw-normal.fst-italic These forms are used to talk about something that existed. 
+                span.r-3.fw-normal.fst-italic These forms are used to talk about something that existed. 
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="There was a hurricane on the island."
               :audio="require('@/assets/audios/tema1/20.mp3')"
@@ -253,7 +257,7 @@
               img.mb-5(src='@/assets/curso/temas/8.svg', alt='')
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic As an auxiliary verb in the past progressive 
+                span.r-3.fst-italic As an auxiliary verb in the past progressive 
                 span.fw-bold / Como verbo auxiliar en el pasado progresivo
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was playing football."
@@ -268,7 +272,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h5 
-                span.r-4.fst-italic Talk about people's behavior 
+                span.r-3.fst-italic Talk about people's behavior 
                 span.fw-bold / Hablar sobre el comportamiento de las personas
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="I was being careful and attentive. "
@@ -286,7 +290,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 1.2. Differences: Was vs. Were (Diferencias: Was vs. Were)
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/c1.jpg', alt='') 
+      .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.jpg', alt='') 
       .col-lg-7 
         p.mb-5(data-aos='fade-right') 
           span.r-3.fw-normal Although both <b>“was”</b> and <b>“were”</b> are the past tense forms of the verb <b>“to be”</b>, they are used with different grammatical persons in the indicative mood, and in the subjunctive mood the rules for their use change. But the first question is: What are the indicative mood and the subjunctive mood?
@@ -300,7 +304,7 @@
           span.r-3 “to be”, 
           | se usan con diferentes personas gramaticales en el modo indicativo; y en el modo subjuntivo, las reglas para su uso cambian. Pero la primera pregunta es: <b>¿qué son el modo indicativo y el modo subjuntivo?</b>
     .row.justify-content-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-4.h-100
           img.mb-3(src='@/assets/curso/temas/10.svg', alt='' style='width: 41px')
           h5
@@ -322,9 +326,9 @@
           p Modo gramatical utilizado para expresar un deseo o sugerencia, situaciones hipotéticas o improbables, cosas que no son reales.
     div(style='background-color: #eda0a8').mb-5
       .row.justify-content-center
-        .col-lg-4: img(src='@/assets/curso/temas/c2.png', alt='')
-        .col-lg-8
-          p.p-lg-4(data-aos='fade-right') 
+        .col-xl-4.d-none.d-xl-block: img.h-100(src='@/assets/curso/temas/c2.png', alt='')
+        .col-xl-8
+          p.p-4.mb-0(data-aos='fade-right') 
             span.r-3.fw-normal Knowing this, let's compare <b>“was”</b> and <b>“were”</b> to clarify how and when to use them correctly, since even native English speakers and people who have been learning this language for a long time make common mistakes when speaking and writing.
             br
             br
@@ -338,13 +342,13 @@
       span Was vs. Were
     //TODO Configurar el scroll 
     .contenedor-vs
-      .contenedor-vs__icon: img(src='@/assets/curso/temas/vs.svg', alt='')
+      .contenedor-vs__icon.d-none.d-lg-block: img(src='@/assets/curso/temas/vs.svg', alt='')
       .row.justify-content-center.mb-5.gx-3
-        .col-lg-6
+        .col-lg-6.mb-lg-0.mb-3
           .card-was
             .card-was__title.p-4
               h2.mb-0.fst-italic WAS
-            .card-was__content.p-5
+            .card-was__content.scroll.p-5
               p 
                 span.r-3.fw-normal.fst-italic It is used in the indicative mood, when something real happened in the past, only with the first and third singular person: <b>I, he, she, it.</b>
                 br
@@ -352,10 +356,10 @@
                 |Es usado en el modo indicativo, cuando algo real sucedió en el pasado, solamente con la primera y tercera persona singular: 
                 span.r-3.fst-italic <b>I, he, she, it.</b>
               p
-                span.r-3 For example / 
+                span.r-4 For example / 
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/12.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -364,7 +368,7 @@
                   )
                   p.ms-2 Ella estaba enferma la semana pasada.
               .row.justify-content-center
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/13.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -386,10 +390,10 @@
                 | (tanto singular como plural), 
                 span.r-3.fst-italic we, they.
               p
-                span.r-3 For example /  
+                span.r-4 For example /  
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/14.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -398,7 +402,7 @@
                   )
                   p.ms-2 Nosotros estábamos en el supermercado.
               .row.justify-content-center.mb-4
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/15.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -417,10 +421,10 @@
                 | (tanto singular como plural), 
                 span.r-3.fst-italic he, she, it, we, they.
               p
-                span.r-3 For example / 
+                span.r-4 For example / 
                 <b>Por ejemplo</b>
               .row.justify-content-center.mb-4
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/16.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -429,7 +433,7 @@
                   )
                   p.ms-2 Desearía ser más alto.
               .row.justify-content-center.mb-4
-                .col-lg-4.col-8.mb-lg-0.mb-3
+                .col-lg-3.col-8.mb-lg-0.mb-3
                   img.mb-3(src='@/assets/curso/temas/17.svg', alt='')
                 .col-lg-8
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
@@ -441,11 +445,11 @@
       .franja
       .contenido.px-5
         .row.justify-content-center.mb-5
-          .col-lg-2.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/warning.svg', alt='')
+          .col-lg-2.col-6.mb-lg-0.mb-3
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 130px;').m-auto
           .col-lg-10
-            h5.mb-5
-              span.r-4 Warning #3
+            h5.mb-5.text-lg-white
+              span.r-3.fst-italic Warning #3
               br
               | Advertencia #3
             p.mb-5 
@@ -475,12 +479,12 @@
               a.boton.color-primario(:href="obtenerLink('downloads/structure.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    .tarjeta-bg.p-5.mb-5
-      .row.justify-content-center.align-items-end.mb-5
-        .col-lg-3.col-8.mb-lg-0.mb-3
+    .tarjeta-bg.p-lg-5.p-1.mb-5
+      .row.justify-content-center.align-items-end
+        .col-lg-3.mb-lg-0.mb-3
           img.d-none.d-lg-block(src='@/assets/curso/temas/c3.png', alt='')
         .col-lg-9
-          .tarjeta.bg-white.p-5
+          .tarjeta.bg-white.p-lg-5.p-3
             SlyderA(tipo='b')
               div
                 p
@@ -684,11 +688,11 @@
       .franja
       .contenido.px-5
         .row.justify-content-center.mb-5
-          .col-lg-2.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/warning.svg', alt='')
+          .col-lg-2.col-6.mb-lg-0.mb-3
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width: 130px').m-auto
           .col-lg-10
-            h5.mb-5
-              span.r-4 Warning #4
+            h5.mb-5.text-lg-white
+              span.r-3.fst-italic Warning #4
               br
               | Advertencia #4
             p.mb-5 
@@ -761,7 +765,7 @@ export default {
     text-align: center
   &__content
     background-color: #e1e8ff
-    max-height: 640px
+    max-height: 690px
 .contenedor-vs
   position: relative
   &__icon

@@ -10,10 +10,16 @@
     top: 15%
     left: 12%
   &-3
-    // animation: float1 2.8s ease-in-out infinite alternate
+    animation: move 4s ease-in-out infinite alternate
     position: absolute
     top: 12%
     left: -112%
+    width: 300px
+@keyframes move 
+  0%
+    transform: translateX(0)
+  100%
+    transform: translateX(10%)
 
 
 @keyframes scale
@@ -102,4 +108,9 @@
   background-color: $color-acento-botones
   opacity: 1
   border: 0px
+h5.text-lg-white
+  @media (max-width: $bp-max-md)
+    color: #fff !important
+    span
+      color: #fff !important
       

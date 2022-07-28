@@ -7,7 +7,7 @@
         span 2
       h1 Time expressions for Past Tense (Expresiones temporales para el tiempo pasado)
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-8.mb-lg-0.mb-3
+      .col-lg-2.col-6.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/c4.svg', alt='')
       .col-lg-10
         .contenedor-traductor
@@ -138,43 +138,43 @@
           .col-lg-9
             .row.justify-content-center
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last Summer"
                 :audio="require('@/assets/audios/tema2/18.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last Christmas"
                 :audio="require('@/assets/audios/tema2/20.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last April"
                 :audio="require('@/assets/audios/tema2/22.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last night"
                 :audio="require('@/assets/audios/tema2/24.mp3')"
                 )
             .row.justify-content-center.mb-3
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last year"
                 :audio="require('@/assets/audios/tema2/19.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last month"
                 :audio="require('@/assets/audios/tema2/21.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last week"
                 :audio="require('@/assets/audios/tema2/23.mp3')"
                 )
               .col-lg-3
-                TarjetaAudio.color-acento-botones.bg-white.mb-2(
+                TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-negro(
                 texto="Last Sunday"
                 :audio="require('@/assets/audios/tema2/25.mp3')"
                 )
@@ -183,13 +183,13 @@
           | / Por ejemplo: 
         .row.mb-5
           .col-lg-4
-            TarjetaAudio.color-acento-botones.bg-white.mb-2(
+            TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-4(
                 texto="I was very tired last night"
                 :audio="require('@/assets/audios/tema2/a1.mp3')"
                 )
             p.ms-4 Yo estaba muy cansada anoche
           .col-lg-4
-            TarjetaAudio.color-acento-botones.bg-white.mb-2(
+            TarjetaAudio.color-acento-botones.bg-white.mb-2.audio-4(
                 texto="They were in Europe last summer"
                 :audio="require('@/assets/audios/tema2/a2.mp3')"
                 )
@@ -200,7 +200,7 @@
             h4
               span.r-3 Ago
             p.mb-5
-              span.r-4.fst-italic We use “time reference” + <em>“ago”</em> to show how far back in the past or how long ago something happened.
+              span.r-3.fst-italic We use “time reference” + <em>“ago”</em> to show how far back in the past or how long ago something happened.
               br
               br
               | Usamos “referencia temporal” + <em>“ago”</em> para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
@@ -261,11 +261,11 @@
             h4
               span.r-3 Yesterday
             p.mb-5
-              span.r-4.fst-italic We use “yesterday” or “yesterday + morning / at noon / afternoon / evening”  to talk about the moments of the day before today.
+              span.r-3.fst-italic We use “yesterday” or “yesterday + morning / at noon / afternoon / evening”  to talk about the moments of the day before today.
               br
               br
               | Usamos 
-              span.r-4.fst-italic “yesterday” 
+              span.r-3.fst-italic “yesterday” 
               | o 
               span.fw-bold <em>“yesterday + morning</em> (en la mañana) <em>/ at noon</em> (al mediodía)  / <em>afternoon</em> (en la tarde) / <em>evening</em> (en la tarde-noche)” 
               | para hablar de los momentos del día antes de hoy.
@@ -308,11 +308,11 @@
       .franja(style= 'height: 80%')
       .contenido.px-5
         .row.justify-content-center.mb-5
-          .col-lg-2.col-8.mb-lg-0.mb-3
-            img(src='@/assets/curso/temas/warning.svg', alt='')
+          .col-lg-2.col-6.mb-lg-0.mb-3
+            img(src='@/assets/curso/temas/warning.svg', alt='' style='width:130px').m-auto
           .col-lg-10
-            h5.mb-5
-              span.r-4 Warning #5
+            h5.mb-5.text-lg-white
+              span.r-3 Warning #5
               br
               | Advertencia #5
             p.mb-5 
@@ -353,4 +353,10 @@ export default {
 <style lang="sass">
 .tabs-b__tab--active, .tabs-b__tab--active:hover
   background-color: #fff7da
+.audio-negro
+  .tarjeta-audio__texto
+    color: black !important
+.audio-4
+  .tarjeta-audio__texto
+    color: $color-acento-botones !important
 </style>

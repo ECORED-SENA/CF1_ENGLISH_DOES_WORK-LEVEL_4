@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'When I was younger<br><span class=r-3>Cuando era más joven</b>',
+      '<em>When I was younger</em><br><span class=r-3>Cuando era más joven</b>',
     descripcionCurso:
       // 'This component is going to be the introduction to the past tenses, starting with the past forms of the verb “to be” (was / were), useful time expressions to refer to the past (ago, last, yesterday, etc.), and suitable vocabulary to build sentences and describe information about experiences of our own life in the past tense. <br><br>
       'Este componente va a ser la introducción a los tiempos pasados, empezando con las formas en pasado del verbo <em>“to be” (was/were)</em>, expresiones de tiempo útiles para hacer referencia al pasado <em>(ago, last, yesterday, etc.)</em> y vocabulario idóneo para construir oraciones y describir información sobre experiencias de nuestra propia vida en tiempo pasado.',
