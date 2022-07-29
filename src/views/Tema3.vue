@@ -322,7 +322,7 @@
       br
       br
       |Algunas de estas etapas 
-      span.r-4.fst-italic (stages) 
+      span.r-3.fst-italic (stages) 
       | son:
     SlyderF.mb-5(columnas="col-lg-1 col-xl-3")
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/53.jpg')})`}" style='height: 303px')
