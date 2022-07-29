@@ -305,7 +305,7 @@
                 )
                 p.ms-3 Los niños estuvieron en casa de su abuela anteayer.
     .contenedor-franja.margin-n
-      .franja(style= 'height: 80%')
+      .franja(style= 'height: 87%')
       .contenido.px-5
         .row.justify-content-center.mb-5
           .col-lg-2.col-6.mb-lg-0.mb-3
