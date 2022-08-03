@@ -384,7 +384,7 @@
             br
             span.r-3 Baby shower (celebración antes del nacimiento del bebé)
     p.mb-5(data-aos='fade-right') Lea y escuche algunos ejemplos con su correspondiente pronunciación en inglés.
-    .contenedor-audios-iconos.p-5(style='background-color: #fff0b5')
+    .contenedor-audios-iconos.p-5(style='background-color: #fff0b5').mb-5
       .icono1.d-none.d-lg-block: img(src='@/assets/curso/temas/61.svg', alt='' style='width: 172px')        
       .icono2.d-none.d-lg-block: img(src='@/assets/curso/temas/62.svg', alt='' style='width: 210px')   
       h5.text-center For example / Por ejemplo:      
@@ -423,7 +423,7 @@
           :audio="require('@/assets/audios/tema3/45.mp3')"
           )
           p.ms-3 En nuestro último aniversario, estábamos en Nueva York.
-    titulo-segundo.color-acento-contenido(data-aos='fade-right')
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 Actividad didáctica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0

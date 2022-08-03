@@ -335,7 +335,7 @@
             | Sabiendo esto, vamos a comparar 
             span.r-3.fst-italic <b>“was”</b> 
             | y 
-            span.r-3.fst-italic <b>“were”</b> 
+            span.r-3.fst-italic <b>“were” </b> 
             | para aclarar cómo y cuándo usarlos correctamente, porque incluso los hablantes nativos de inglés y las personas que llevan mucho tiempo aprendiendo este idioma cometen errores comunes al hablar y escribir.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
@@ -541,7 +541,7 @@
                       span.r-3.fw-italic Was 
                       | she intelligent?
                   .col-lg-4.mb-lg-0.mb-3
-                    p Ella <b>era</b> inteligente.
+                    p ¿Ella <b>era</b> inteligente?
                 .row.justify-content-center.mb-3
                   .col-lg-4.mb-lg-0.mb-3
                     .d-flex.align-items-center
